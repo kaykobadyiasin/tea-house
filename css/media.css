@@ -1,0 +1,48 @@
+@media only screen and (max-width: 576px){
+    
+}
+
+
+@media only screen and (min-width: 576.99px) and (max-width: 768px){
+    .meet_main {
+        min-height: 1000px;
+    }
+    .meet-content h3 {
+        margin-top: 0 !important;
+    }
+    .meet_box_main {
+        width: 390px !important;
+        height: 200px !important;
+    }
+
+}
+@media only screen and (min-width: 768.99px) and (max-width: 992px){
+    .banner_content h2 {
+        font-size: 55px !important;
+        line-height: 80px !important;
+        margin-bottom: 15px !important;
+    }
+    .meet_box_main {
+        width: 330px !important;
+        height: 240px !important;
+    }
+}
+
+@media only screen and (min-width: 992.99px) and (max-width: 1200px){
+    .meet_box_main {
+        width: 400px !important;
+        height: 230px;
+    }
+    .meet_box2 {
+        width: 400px !important;
+        height: 230px;
+    }
+    .meet_box3 {
+        width: 400px !important;
+        height: 230px;
+    }
+}
+
+@media only screen and (min-width: 1200.99px) and (max-width: 1400px){
+    
+}

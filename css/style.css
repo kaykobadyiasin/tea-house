@@ -4,7 +4,6 @@ body{
     font-weight: 500;
     line-height: 30px;
 }
-
 .banner{
     padding: 70px 0;
 }
@@ -20,13 +19,14 @@ body{
 .banner_content p{
     margin-bottom: 30px;
 }
-.banner_content button{
-    background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
-    border-radius: 10px;
-    color: white;
-    padding: 16px 30px;
-    font-size: 20px;
-    font-weight: 700;
+.banner_content button {
+	background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+	border-radius: 10px;
+	color: white;
+	padding: 16px 30px;
+	font-size: 20px;
+	font-weight: 700;
+	border: 0;
 }
 .banner_img{
     position: relative;
@@ -52,7 +52,6 @@ body{
     color: #FFC850;
 }
 
-
 /* feature product  */
 .common_hed{
     padding: 50px 0;
@@ -64,7 +63,6 @@ body{
     margin-bottom: 20px;
 }
 .common_hed p{}
-
 
 .item{
     background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
@@ -121,7 +119,6 @@ body{
 }
 
 
-
 .meet_main{
     width: 100%;
     min-height: 650px;
@@ -151,12 +148,13 @@ body{
 .meet_boxes{
     position: relative;
 }
-.meet_box_main{
-    z-index: 10;
-    width: 433px;
-    height: 233px;
-    background-color: white;
-    margin-top: 220px;
+.meet_box_main {
+	z-index: 3;
+	width: 433px;
+	height: 233px;
+	background-color: white;
+	margin-top: 220px;
+	position: absolute;
 }
 .meet_box_main h3{
     color: #1C1C1C;
@@ -166,23 +164,21 @@ body{
 .meet_box2 {
 	position: absolute;
 	opacity: 0.3;
-	top: -130px;
+	top: 360px;
 	left: 100px;
-    z-index: 3;
+	z-index: 2;
 }
-.meet_box3{
-    position: absolute;
-    opacity: 0.3;
-	bottom: -130px;
+.meet_box3 {
+	position: absolute;
+	opacity: 0.3;
+	bottom: -315px;
 	left: 100px;
-    z-index: 1;
+	z-index: 1;
 }
-
 footer{
     padding: 100px;
     background-color: #FFE6E6;
 }
-
 .btn_get{
     background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
     border-radius: 10px;
