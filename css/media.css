@@ -1,36 +1,82 @@
 @media only screen and (max-width: 576px){
-    
+    .banner_content h2 {
+        font-size: 60px !important;
+    }
+    .great_content {
+        margin-top: 65px;
+    }
+    .meet-content h3 {
+        margin-top: 20px !important;
+    }
+    .meet_boxes {
+        display: none;
+    }
+    .item {
+        margin-top: 20px;
+    }
+    .quick_s {
+        margin-bottom: 40px;
+    }
+    .subscribe h3 {
+        font-size: 23px;
+    }
+    .social a i{
+        margin-top: 20px !important;
+    }
+
+    footer {
+        padding: 50px !important;
+    }
 }
 
 
 @media only screen and (min-width: 576.99px) and (max-width: 768px){
+    
+    .great_content {
+        margin-top: 40px;
+    }
     .meet_main {
         min-height: 1000px;
     }
     .meet-content h3 {
         margin-top: 0 !important;
     }
+    
     .meet_box_main {
-        width: 390px !important;
-        height: 200px !important;
+        margin-top: 100px !important;
+        left: 70px;
     }
+    .meet_box2 {
+        top: 140px !important;
+        left: 150px !important;
+    }
+    .meet_box3 {
+        left: 150px !important;
+        top: -120px;
+    }
+    
 
 }
 @media only screen and (min-width: 768.99px) and (max-width: 992px){
+    
     .banner_content h2 {
         font-size: 55px !important;
         line-height: 80px !important;
         margin-bottom: 15px !important;
     }
-    .meet_box_main {
-        width: 330px !important;
-        height: 240px !important;
+    .meet-content h3 {
+        margin-top: 0 !important;
+    }
+    
+    .meet_box_main, .meet_box3, .meet_box2 {
+        display: none;
     }
 }
 
 @media only screen and (min-width: 992.99px) and (max-width: 1200px){
+
     .meet_box_main {
-        width: 400px !important;
+        width: 400px;
         height: 230px;
     }
     .meet_box2 {

@@ -121,7 +121,7 @@ body{
 
 .meet_main{
     width: 100%;
-    min-height: 650px;
+    /* min-height: 650px; */
     background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
 }
 .meet-content{
@@ -198,10 +198,10 @@ footer{
     box-shadow: 0 0 0 0 transparent;
 }
 
-
-.quick_s{
-    
+.f_logo{
+    width: 100%;
 }
+
 footer li{
     margin-top: 10px;
     list-style: none;
